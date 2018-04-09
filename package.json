@@ -1,0 +1,37 @@
+{
+  "name": "aggregator",
+  "version": "0.0.1",
+  "description": "simple way to analyze complex data in one chain call",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exoticknight/juhe.git"
+  },
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf lib/* && tsc",
+    "patch": "npm run build && git add . && git commit -m 'patch' && npm version patch",
+    "test": "ts-node ./test/index.spec.ts"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md",
+    "main.js"
+  ],
+  "keywords": [
+    "data",
+    "aggregate",
+    "analysis",
+    "statistic"
+  ],
+  "author": {
+    "email": "draco.knight0@gmail.com",
+    "name": "exoticknight"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  }
+}
