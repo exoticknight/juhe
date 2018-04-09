@@ -1,5 +1,5 @@
 {
-  "name": "aggregator",
+  "name": "juhe",
   "version": "0.0.2",
   "description": "simple way to analyze complex data in one chain call",
   "main": "main.js",
@@ -22,6 +22,8 @@
   "keywords": [
     "data",
     "aggregate",
+    "aggregation",
+    "aggregator",
     "analysis",
     "statistic"
   ],
