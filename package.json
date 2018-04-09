@@ -1,6 +1,6 @@
 {
   "name": "juhe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple way to analyze complex data in one chain call",
   "main": "main.js",
   "repository": {
